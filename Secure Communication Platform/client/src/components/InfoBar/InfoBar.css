@@ -1,0 +1,45 @@
+/* Styling for the InfoBar component */
+.infoBar {
+  /* Display the container as a flexbox, centering its contents vertically and justifying space between them horizontally */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* Set the background color to a blue shade */
+  background: #2979FF;
+  /* Add a rounded border to the top */
+  border-radius: 4px 4px 0 0;
+  /* Set the height to 60px and width to 100% of its parent's width */
+  height: 60px;
+  width: 100%;
+}
+
+/* Styling for the left inner container within the InfoBar */
+.leftInnerContainer {
+  /* Make the left inner container take up half of the available horizontal space */
+  flex: 0.5;
+  /* Display its contents as a flexbox, centering them vertically */
+  display: flex;
+  align-items: center;
+  /* Add some left margin for spacing */
+  margin-left: 5%;
+  /* Set the text color to white */
+  color: white;
+}
+
+/* Styling for the right inner container within the InfoBar */
+.rightInnerContainer {
+  /* Display the right inner container as a flexbox */
+  display: flex;
+  /* Make it take up half of the available horizontal space */
+  flex: 0.5;
+  /* Justify its contents to the flex-end (right) for right alignment */
+  justify-content: flex-end;
+  /* Add some right margin for spacing */
+  margin-right: 5%;
+}
+
+/* Styling for the online icon within the InfoBar */
+.onlineIcon {
+  /* Add some right margin for spacing */
+  margin-right: 5%;
+}

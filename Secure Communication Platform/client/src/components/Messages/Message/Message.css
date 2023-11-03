@@ -1,0 +1,108 @@
+/* Styling for the messageBox which contains the message text */
+.messageBox {
+  /* Set the background color for the message box */
+  background: #F3F3F3;
+  /* Apply rounded corners to the message box */
+  border-radius: 20px;
+  /* Add padding to the message box */
+  padding: 5px 20px;
+  /* Set the text color to white */
+  color: white;
+  /* Display the message box as an inline block element */
+  display: inline-block;
+  /* Limit the maximum width of the message box to 80% of its container */
+  max-width: 80%;
+}
+
+/* Styling for the message text within the message box */
+.messageText {
+  /* Set the width of the message text to 100% */
+  width: 100%;
+  /* Remove letter spacing */
+  letter-spacing: 0;
+  /* Float the message text to the left */
+  float: left;
+  /* Set the font size for the message text */
+  font-size: 1.1em;
+  /* Enable word wrapping for long messages */
+  word-wrap: break-word;
+}
+
+/* Styling for images within the message text */
+.messageText img {
+  /* Vertically align images in the middle of the message text */
+  vertical-align: middle;
+}
+
+/* Styling for the message container that holds messages */
+.messageContainer {
+  /* Display the message container as a flex container */
+  display: flex;
+  /* Justify content to the right (for messages sent by the current user) */
+  justify-content: flex-end;
+  /* Add padding to the left and right of the message container */
+  padding: 0 5%;
+  /* Add some top margin for spacing between messages */
+  margin-top: 3px;
+}
+
+/* Styling for the sentText, which indicates the sender of the message */
+.sentText {
+  /* Display sentText as a flex container, aligning items in a row */
+  display: flex;
+  align-items: center;
+  /* Set the font family to Helvetica */
+  font-family: Helvetica;
+  /* Set the text color to a light gray */
+  color: #828282;
+  /* Adjust letter spacing for legibility */
+  letter-spacing: 0.3px;
+}
+
+/* Padding utility class for adding left padding */
+.pl-10 {
+  /* Add left padding of 10px */
+  padding-left: 10px;
+}
+
+/* Padding utility class for adding right padding */
+.pr-10 {
+  /* Add right padding of 10px */
+  padding-right: 10px;
+}
+
+/* Utility class for justifying content to the left */
+.justifyStart {
+  /* Justify content to the left (for messages sent by others) */
+  justify-content: flex-start;
+}
+
+/* Utility class for justifying content to the right */
+.justifyEnd {
+  /* Justify content to the right (for messages sent by the current user) */
+  justify-content: flex-end;
+}
+
+/* Styling for text with white color */
+.colorWhite {
+  /* Set the text color to white */
+  color: white;
+}
+
+/* Styling for text with a dark color */
+.colorDark {
+  /* Set the text color to a dark gray */
+  color: #353535;
+}
+
+/* Styling for the background of messages sent by the current user */
+.backgroundBlue {
+  /* Set the background color to blue */
+  background: #2979FF;
+}
+
+/* Styling for the background of messages sent by others */
+.backgroundLight {
+  /* Set the background color to light gray */
+  background: #F3F3F3;
+}

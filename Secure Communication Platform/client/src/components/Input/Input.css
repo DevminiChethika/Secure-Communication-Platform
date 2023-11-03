@@ -1,0 +1,31 @@
+/* Define styles for the form containing the input and send button */
+.form {
+  display: flex; /* Use flexbox layout for the form */
+  border-top: 2px solid #D3D3D3; /* Add a top border with a light gray color */
+}
+
+/* Define styles for the input field */
+.input {
+  border: none; /* Remove the border */
+  border-radius: 0; /* Remove border-radius */
+  padding: 5%; /* Add padding around the input field */
+  width: 80%; /* Set the width of the input field to 80% of the parent */
+  font-size: 1.2em; /* Set the font size of the text */
+}
+
+/* Remove the default focus outline for input fields */
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+/* Define styles for the send button */
+.sendButton {
+  color: #fff !important; /* Set text color to white */
+  text-transform: uppercase; /* Transform text to uppercase */
+  text-decoration: none; /* Remove text decoration */
+  background: #2979FF; /* Set the background color to blue */
+  padding: 20px; /* Add padding around the button */
+  display: inline-block; /* Display as inline-block element */
+  border: none; /* Remove the button border */
+  width: 20%; /* Set the width of the button to 20% of the parent */
+}
