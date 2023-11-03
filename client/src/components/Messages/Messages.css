@@ -1,0 +1,9 @@
+/* Styling for the Messages component */
+.messages {
+  /* Add padding to the top and bottom of the container (5% of the container's width) */
+  padding: 5% 0;
+  /* Enable vertical overflow when the content exceeds the container's height */
+  overflow: auto;
+  /* Allow the container to grow or shrink as needed to fill available space */
+  flex: auto;
+}

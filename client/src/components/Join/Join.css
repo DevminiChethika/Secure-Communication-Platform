@@ -1,0 +1,80 @@
+/* Reset default styles for HTML and body */
+html, body {
+  font-family: 'Roboto', sans-serif; /* Set font-family */
+  padding: 0;
+  margin: 0;
+}
+
+/* Set the root container's height to 100% of the viewport height */
+#root {
+  height: 100vh;
+}
+
+/* Apply box-sizing: border-box globally */
+* {
+  box-sizing: border-box;
+}
+
+/* Style for the outer container of the "Join" page */
+.joinOuterContainer {
+  display: flex; /* Display items as a flex container */
+  justify-content: center; /* Center content horizontally */
+  text-align: center; /* Center text within the container */
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  align-items: center; /* Center content vertically */
+  background-color: #1A1A1D; /* Set background color */
+}
+
+/* Style for the inner container within the "Join" page */
+.joinInnerContainer {
+  width: 20%; /* Set the width of the inner container */
+}
+
+/* Style for input fields in the "Join" page */
+.joinInput {
+  border-radius: 0; /* Remove border-radius */
+  padding: 15px 20px; /* Add padding */
+  width: 100%; /* Set width to 100% */
+}
+
+/* Style for the heading in the "Join" page */
+.heading {
+  color: white; /* Set text color */
+  font-size: 2.5em; /* Set font size */
+  padding-bottom: 10px; /* Add padding at the bottom */
+  border-bottom: 2px solid white; /* Add a white border at the bottom */
+}
+
+/* Style for buttons */
+.button {
+  color: #fff !important; /* Set text color */
+  text-transform: uppercase; /* Transform text to uppercase */
+  text-decoration: none; /* Remove text decoration */
+  background: #2979FF; /* Set background color */
+  padding: 20px; /* Add padding */
+  border-radius: 5px; /* Add border-radius */
+  display: inline-block; /* Display as inline-block element */
+  border: none; /* Remove border */
+  width: 100%; /* Set width to 100% */
+}
+
+/* Add margin-top of 20px */
+.mt-20 {
+  margin-top: 20px;
+}
+
+/* Media query for smaller screens (320px to 480px) */
+@media (min-width: 320px) and (max-width: 480px) {
+  .joinOuterContainer {
+    height: 100%; /* Set the height to 100% for smaller screens */
+  }
+
+  .joinInnerContainer {
+    width: 90%; /* Adjust the width for smaller screens */
+  }
+}
+
+/* Remove focus outline for buttons */
+button:focus {
+  outline: 0;
+}
